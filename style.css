@@ -1,0 +1,24 @@
+#mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.miniDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 280px;
+  height: 450px;
+  border: 1px solid rgb(77, 161, 174);
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 1px  rgb(131, 193, 231);
+}
+
+.miniDiv p{
+  font-weight: 900;
+}
+
